@@ -1,0 +1,33 @@
+{
+  "users": [],
+  "product": [
+    {
+      "id": "b908fc3e-d1bf-4333-818e-0c1162da8d84",
+      "title": "asdf",
+      "price": "hskadfh",
+      "description": "kjashdfkj",
+      "image": "kajsdhfk"
+    },
+    {
+      "id": "477d825f-3989-471c-bb9c-6c2d541da093",
+      "title": "ksdjfl",
+      "price": "slkdfjgl",
+      "description": "asldkfh",
+      "image": "slkdfhg"
+    },
+    {
+      "id": "5e59bb74-d651-4d8c-ad82-93132fcdcef6",
+      "title": "ahskdjfhk",
+      "price": "827345",
+      "description": "lkfdhglksd",
+      "image": "lkdsfgh"
+    },
+    {
+      "id": "b3ef53c4-77d9-4e47-961b-edd072bac2a5",
+      "title": "adsjf",
+      "price": "alksdfj",
+      "description": "alsdjf",
+      "image": "alsdfj"
+    }
+  ]
+}
