@@ -1,0 +1,68 @@
+header{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header .logo{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .inputbar{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header .inputbar i{
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 40px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F5FF;
+    border-radius: 5px 0 0 5px;
+}
+
+header .inputbar input{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    padding: 0 0 0 10px;
+    background-color: #F0F5FF;
+    border-radius: 0 5px 5px 0;
+}
+
+header .icon{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header .icon p{
+    /* border: 1px solid black; */
+    cursor: pointer;
+    margin: 0 0 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icon p i{
+    margin: 0 10px 0 10px;
+}

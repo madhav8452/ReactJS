@@ -1,0 +1,101 @@
+.section3{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 450px;
+    background-color: #F1F2F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.section3 .sec3box{
+    /* border: 1px solid black; */
+    width: 81%;
+    height: 100%;
+    background-color: white;
+}
+
+.section3 .sec3box .sec3head{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.section3 .sec3box .sec3head p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section3 .sec3box .sec3head i{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #2A55E5;
+    color: white;
+}
+
+.section3 .sec3box .sec3slider{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 85%;
+    padding: 10px;
+}
+
+.section3 .sec3box .sec3slider swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.section3 .sec3box .sec3slider swiper-container swiper-slide{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.section3 .sec3box .sec3slider swiper-container swiper-slide .img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+}
+
+.section3 .sec3box .sec3slider swiper-container swiper-slide .des{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 .sec3box .sec3slider swiper-container swiper-slide .des .p1{
+    font-size: 14px;
+}
+
+.section3 .sec3box .sec3slider swiper-container swiper-slide .des .p2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section3 .sec3box:last-child{
+    /* border: 1px solid black; */
+    width: 18%;
+    height: 100%;
+}
+
+.section3 .sec3box:last-child img{
+    width: 100%;
+    height: 100%;
+}
