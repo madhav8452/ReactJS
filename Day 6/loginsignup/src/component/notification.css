@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#notification{
+  /* border: 1px solid black; */
+  width: 450px;
+  height: 150px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#success{
+  border-left: 10px solid green;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  position: relative;
+  position: absolute;
+  top: 20px;
+  right: -430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+#success i{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#success .head{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+#success .msg{
+  margin: 10px 0 0 20px;
+}
+
+#error{
+  border-left: 10px solid brown;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  position: relative;
+  position: absolute;
+  top: 20px;
+  right: -430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+#error i{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#error .head{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+#error .msg{
+  margin: 10px 0 0 20px;
+}
+
+#info{
+  border-left: 10px solid brown;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  position: relative;
+  position: absolute;
+  top: 20px;
+  right: -430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+#info i{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#info .head{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+#info .msg{
+  margin: 10px 0 0 20px;
+}
