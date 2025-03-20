@@ -1,0 +1,109 @@
+{
+  "Event": [
+    {
+      "id": "1",
+      "title": "Mughal-E-Azam | Delhi",
+      "category": "Movies",
+      "price": "500",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_400/c_crop%2Cg_custom%2Fv1734509791%2Fu7j0tlps7mpvzy1nvoxj.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Simba Uproar 2025 | Delhi",
+      "category": "Movies",
+      "price": "999",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_400/c_crop%2Cg_custom%2Fv1737813262%2Frryg10sutcf08wg67iko.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Millionaire India Tour | Yo Yo Honey Singh Live | Delhi",
+      "category": "Movies",
+      "price": "1499",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_400/c_crop%2Cg_custom%2Fv1736401024%2Fpi3buhhudxxhp6w3wssx.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Sobha Realty IIFA Weekend 2025 | Jaipur",
+      "category": "Movies",
+      "price": "2000",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1738759269%2Fdx82qp0m7dajn5tqdjp4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Arijit Singh Live In Concert - Chandigarh 2025",
+      "category": "Movies",
+      "price": "2500",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1735036431%2Fv9hfivirekihsbn375b8.jpg"
+    },
+    {
+      "id": "6",
+      "title": "M.M. Keeravani Live in Concert | Hyderabad",
+      "category": "Events",
+      "price": "1599",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1738227210%2Ffpnqp54243w8jp2jaa0y.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Sid Sriram Live in Concert | Hyderabad",
+      "category": "Events",
+      "price": "699",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1736496120%2Fzc7lprt3aqbfzi792it7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Delirium Festival 2025",
+      "category": "Events",
+      "price": "2499",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1737968755%2Fojn4ghojwrknwa4lilij.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Rockstar DSP LIVE in Bengaluru",
+      "category": "Events",
+      "price": "999",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1738731874%2Fpdqufjhtu7malnakfswy.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Rock On Harris - CBE Edition",
+      "category": "Events",
+      "price": "999",
+      "image": "https://res.cloudinary.com/dwzmsvp7f/image/upload/f_auto,w_420/c_crop%2Cg_custom%2Fv1738922025%2Fimjejyanbhwmxxoefwwd.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Karolina Grabowska STAFFAGE",
+      "category": "Dining",
+      "price": "10000",
+      "image": "https://www.speque.com/Posts/TitleImages/5-advantages-of-a-table-booking-management-system-for-restaurants.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Temptations The Food Zone",
+      "category": "Dining",
+      "price": "5000",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fc/df/04/temptations-the-food.jpg?w=600&h=400&s=1"
+    },
+    {
+      "id": "13",
+      "title": "Dhola Maru",
+      "category": "Dining",
+      "price": "15000",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/d7/d4/82/dhola-maru.jpg?w=900&h=500&s=1"
+    },
+    {
+      "id": "14",
+      "title": "Honest Restaurant",
+      "category": "Dining",
+      "price": "20000",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/d5/1f/12/honest-restaurant.jpg?w=900&h=500&s=1"
+    },
+    {
+      "id": "15",
+      "title": "Regency Lagoon Resort - Dining",
+      "category": "Dining",
+      "price": "25000",
+      "image": "https://www.chefstore.com/images/imagebank/blog/restaurant-seating.webp"
+    }
+  ]
+}
