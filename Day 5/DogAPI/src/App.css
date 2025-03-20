@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  border: 1px solid red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body .image{
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  margin: 0 0 10px 0;
+}
+
+.body .image img{
+  width: 100%;
+  height: 100%;
+}
+
+.body button{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+

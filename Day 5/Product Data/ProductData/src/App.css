@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100vh;
+  background-color: darkgray;
+}
+
+.body div h1{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.body .product{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 50px;
+  gap: 50px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.body .product .card{
+  /* border: 1px solid black; */
+  width: 22%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.body .product .card .image{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.body .product .card .image .rate{
+  /* border: 1px solid white; */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body .product .card .image .rate i{
+  color: orange;
+  font-size: 14px;
+  margin: 0 5px 0 0;
+}
+
+.body .product .card .details{
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.body .product .card .details .head{
+  color: white;
+  font-weight: bold;
+}
+
+.body .product .card .details .brand{
+  color: gray;
+  font-weight: bold;
+}
+
+.body .product .card .details .category{
+  color: gray;
+  font-weight: bold;
+}
+
+.body .product .card .details .price{
+  color: green;
+  font-weight: bold;
+}
