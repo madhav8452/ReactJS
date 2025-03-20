@@ -1,0 +1,82 @@
+{
+  "user": [
+    {
+      "id": "f3df",
+      "username": "madhav",
+      "email": "madhav@gmail.com",
+      "password": "madhav123"
+    },
+    {
+      "id": "6f56",
+      "username": "rathod",
+      "email": "rathod@gmail.com",
+      "password": "rathod123"
+    },
+    {
+      "id": "f078",
+      "username": "madhav019",
+      "email": "madhav019@gmail.com",
+      "password": "madhav123"
+    },
+    {
+      "id": "b771",
+      "username": "madhav019",
+      "email": "madhav019@gmail.com",
+      "password": "madhav123"
+    }
+  ],
+  "product": [
+    {
+      "id": "1e6480c4-fb3f-400d-ad8f-51893b8ca944",
+      "title": "aksjfdlk",
+      "price": "9e45",
+      "description": "lkdsjgf",
+      "image": "slkdhgf"
+    },
+    {
+      "id": "c5378c0b-b595-4b87-89e6-28341d536288",
+      "title": "amdhav",
+      "price": "38459",
+      "description": "kdshfk",
+      "image": "SLKDFG"
+    }
+  ],
+  "cart": [
+    {
+      "id": "cb6c",
+      "product": {
+        "id": "1e6480c4-fb3f-400d-ad8f-51893b8ca944",
+        "title": "aksjfdlk",
+        "price": "9e45",
+        "description": "lkdsjgf",
+        "image": "slkdhgf"
+      },
+      "userName": "madhav",
+      "quantity": 1
+    },
+    {
+      "id": "7039",
+      "product": {
+        "id": "c5378c0b-b595-4b87-89e6-28341d536288",
+        "title": "amdhav",
+        "price": "38459",
+        "description": "kdshfk",
+        "image": "SLKDFG"
+      },
+      "userName": "madhav",
+      "quantity": 1
+    },
+    {
+      "id": "f102",
+      "product": {
+        "id": "1e6480c4-fb3f-400d-ad8f-51893b8ca944",
+        "title": "aksjfdlk",
+        "price": "9e45",
+        "description": "lkdsjgf",
+        "image": "slkdhgf"
+      },
+      "userName": "rathod",
+      "quantity": 1
+    }
+  ]
+}
