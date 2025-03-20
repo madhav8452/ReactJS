@@ -1,0 +1,158 @@
+.border {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border .addProduct{
+    border: 1px solid black;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* display: none; */
+}
+
+.border .addProduct h1{
+    margin: 0 0 30px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.addProduct label{
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.border .addProduct input{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    padding: 0 0 0 30px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+.border .addProduct #submitbtn{
+    width: 40%;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.border .addProduct #submitbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.border .addProduct .anchor{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.border .productdata{
+    /* border: 1px solid purple; */
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.border .productdata .head{
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.border .productdata .head button{
+    position: absolute;
+    right: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.border .productdata .head button:hover{
+    background-color: black;
+    color: white;
+}
+
+.border .productdata .AllProducts{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+
+.border .productdata .AllProducts::-webkit-scrollbar{
+    display: none;
+}
+
+.border .productdata .AllProducts .card{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.border .productdata .AllProducts .card .image{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+}
+
+.border .productdata .AllProducts .card .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.border .productdata .AllProducts .card .details{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+
+.border .productdata .AllProducts .card .details .title{
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.border .productdata .AllProducts .card .details .des{
+    font-size: 13px;
+    color: gray;
+    margin: 0 0 10px 0;
+}
+
+.border .productdata .AllProducts .card .details .price{
+    color: green;
+    font-weight: bold;
+}
