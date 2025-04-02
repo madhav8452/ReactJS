@@ -4,8 +4,8 @@ import Navbar from './navbar'
 function ReservationForm() {
     let [name, setName] = useState('')
     let [email, setEmail] = useState('')
-    let [date, setDate] = useDate('')
-    
+    let [date, setDate] = useState('')
+     
     return (
     <div className='w-full'>
       <Navbar></Navbar>
